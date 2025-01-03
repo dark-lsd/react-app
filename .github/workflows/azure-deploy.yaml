@@ -14,12 +14,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      
-      - name: change to roor directory
-        run: |
-          ls -la
-          cd ./react-app
-          ls -la
         
       - name: Install NPM packages
         run: |
