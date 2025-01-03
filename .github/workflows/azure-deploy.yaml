@@ -15,8 +15,7 @@ jobs:
           
       - name: Install NPM packages
         run: |
-          cd react-app/
-          npm install
+          npm ci
         
       - name: Building the project...
         run: npm run build
